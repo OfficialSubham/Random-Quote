@@ -5,5 +5,33 @@
 }
 
 body {
+    height: 100vh;
     background-color: #001524;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whole-quote {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.whole-quote .writer{
+    position: absolute;
+    right: 80px;
+    bottom: 200px;
+}
+
+.quote {
+    width: 400px;
+    height: auto;
+    margin-bottom: 40px;
 }

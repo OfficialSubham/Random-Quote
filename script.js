@@ -7,6 +7,10 @@ async function getQuote() {
     let quoteData = await quote.json();
 
     console.log(quoteData);
+    document.querySelector(".js-quote")
+        .innerText = quoteData.quote
+    document.querySelector(".js-writer")
+        .innerText = quoteData.author
 }
 
 function randomNumGenerator() {
